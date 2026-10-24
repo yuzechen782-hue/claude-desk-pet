@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+
+# 本地数据与密钥（不要上传）
+usage.json
+usage.tmp
+fal_key.sh
+*.key
+
+# 运行 build_assets.sh 生成的帧（体积大，可以随时从 anim/ 里的视频重新生成）
+assets/*/
+assets/scene_ref.json
+
+# 生成动画时的中间文件
+anim/check_*.png
+anim/base_padded.png
+anim/doze_end.png
+anim/*_[0-9].mp4
+anim/*_[0-9][0-9].mp4
+anim/base_[0-9]*.png
+showcase.mp4
+icon.iconset/
+
+.DS_Store

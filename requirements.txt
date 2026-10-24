@@ -1,0 +1,8 @@
+PySide6
+av
+numpy
+scipy
+pillow
+# 以下只在自己重新生成动画时需要
+fal-client
+httpx
